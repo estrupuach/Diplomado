@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Bonita</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #333;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      margin: 15px 0 10px;
+    }
+
+    .product-card p {
+      font-size: 0.9rem;
+      color: #666;
+      margin: 0 0 15px;
+    }
+
+    .product-card button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .product-card button:hover {
+      background: #45a049;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda Bonita</h1>
+    <p>¡Los mejores productos al mejor precio!</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="product-grid">
+      <!-- Tarjeta de producto -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Producto 1">
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Producto 2">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Producto 3">
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto.</p>
+        <button>Comprar</button>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Producto 4">
+        <h3>Producto 4</h3>
+        <p>Descripción breve del producto.</p>
+        <button>Comprar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tienda Bonita. Todos los derechos reservados. <a href="#">Aviso de privacidad</a></p>
+  </footer>
+</body>
+</html>
