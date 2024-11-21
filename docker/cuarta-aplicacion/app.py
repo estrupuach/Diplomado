@@ -18,7 +18,7 @@ def voice():
     polly = boto3.client('polly', region_name='us-east-1')
 
     response = polly.synthesize_speech(Text=text,
-                                       Output_fromat=output_fromat,
+                                       Output_format=output_fromat,
                                       VoiceId=voice)
 
     audio_file = "output.mp3"
