@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: MiApp
+    app: ccac-1035879662
   ports:
     # Por defecto y por comodidad, el `TargetPort` tiene el mismo valor que el campo `port.
     - port: 80
