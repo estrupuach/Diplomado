@@ -15,7 +15,7 @@ spec:
         app: ccac-1035879662
     spec:
       containers:
-      - name: MiContenedor
+      - name: mi-contenedor
         image: 047719650114.dkr.ecr.us-east-1.amazonaws.com/c1035879662:latest
         ports:
         - containerPort: 5000
