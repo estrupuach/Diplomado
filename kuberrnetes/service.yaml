@@ -4,7 +4,7 @@ metadata:
   name: 1035879662-servicio
 spec:
   selector:
-    app: 1035879662
+    app: ccac-1035879662
   ports:
     - protocol: TCP
       port: 80
